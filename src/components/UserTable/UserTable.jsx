@@ -34,6 +34,9 @@ function UserTable({ data, onDeleteRows, onDuplicateRows }) {
             <Th>Пошта</Th>
             <Th>Номер телефону</Th>
             <Th>Стать</Th>
+            <Th>Дата Народження</Th>
+            <Th>Група</Th>
+            <Th>Файл</Th>
             <Th>Дії</Th>
           </tr>
         </thead>
@@ -44,6 +47,9 @@ function UserTable({ data, onDeleteRows, onDuplicateRows }) {
               <Td>{user.email}</Td>
               <Td>{user.phone}</Td>
               <Td>{user.gender}</Td>
+              <Td>{user.birtdate}</Td>
+              <Td>{user.group}</Td>
+              <Td>{user.file}</Td>
               <Td>
                 <input
                   type="checkbox"
